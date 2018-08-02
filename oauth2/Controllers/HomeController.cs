@@ -5,6 +5,7 @@ using System.Web.Mvc;
 
 namespace oauth2.Controllers
 {
+    [RequireHttps]
     [Authorize]
     public class HomeController : Controller
     {
